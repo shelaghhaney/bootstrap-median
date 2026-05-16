@@ -1,0 +1,4 @@
+shape,n,B,median_estimate,bootstrap_se,bias,ci95_lower,ci95_upper,elapsed_ms,alloc_kb
+Symmetric (Normal),500,1000,-0.037971,0.046735,-0.005183,-0.142213,0.046595,28.457,4029.41
+Positively Skewed (Log-Normal),500,1000,1.000396,0.061315,0.012903,0.900507,1.134688,27.883,4016.00
+Negatively Skewed (Reflected Log-Normal),500,1000,12.963378,0.046231,-0.003870,12.882545,13.047413,23.182,4016.00

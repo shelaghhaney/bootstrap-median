@@ -1,0 +1,10 @@
+[2026-05-16 17:18:12.110] [INFO] Bootstrap Median SE Estimator
+[2026-05-16 17:18:12.111] [INFO] Parameters: B=1000  seed=42  data=loaded from testdata/
+[2026-05-16 17:18:12.111] [INFO] Loaded 500 observations from testdata/symmetric.csv
+[2026-05-16 17:18:12.140] [INFO] Symmetric (Normal) | n=500  median=-0.0380  SE=0.0467  bias=-0.0052  95%CI=[-0.1422,0.0466]  elapsed=28.457125ms  alloc=4029.4KB
+[2026-05-16 17:18:12.140] [INFO] Loaded 500 observations from testdata/positively_skewed.csv
+[2026-05-16 17:18:12.168] [INFO] Positively Skewed (Log-Normal) | n=500  median=1.0004  SE=0.0613  bias=0.0129  95%CI=[0.9005,1.1347]  elapsed=27.883833ms  alloc=4016.0KB
+[2026-05-16 17:18:12.169] [INFO] Loaded 500 observations from testdata/negatively_skewed.csv
+[2026-05-16 17:18:12.192] [INFO] Negatively Skewed (Reflected Log-Normal) | n=500  median=12.9634  SE=0.0462  bias=-0.0039  95%CI=[12.8825,13.0474]  elapsed=23.182ms  alloc=4016.0KB
+[2026-05-16 17:18:12.193] [INFO] Results saved to results/go_results.csv
+[2026-05-16 17:18:12.193] [INFO] Final memory | Alloc=1235.99 KB  TotalAlloc=12392.26 KB  Sys=12946.26 KB  NumGC=3
