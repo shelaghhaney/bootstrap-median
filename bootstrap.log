@@ -1,0 +1,12 @@
+[2026-05-16 15:28:41.415] [INFO] Bootstrap Median SE Estimator
+[2026-05-16 15:28:41.415] [INFO] Parameters: n=500  B=1000  seed=42
+[2026-05-16 15:28:41.416] [INFO] CPU profiling active → results/cpu.prof
+[2026-05-16 15:28:41.416] [INFO] Generating 500 Symmetric (Normal) observations
+[2026-05-16 15:28:41.456] [INFO] Symmetric (Normal) | median=-0.0674  SE=0.0521  bias=-0.0008  95%CI=[-0.1581, 0.0498]  elapsed=39.429613ms  alloc=4028.1KB
+[2026-05-16 15:28:41.457] [INFO] Generating 500 Positively Skewed (Log-Normal) observations
+[2026-05-16 15:28:41.493] [INFO] Positively Skewed (Log-Normal) | median=0.9978  SE=0.0576  bias=0.0163  95%CI=[0.9182, 1.1327]  elapsed=36.591142ms  alloc=4024.0KB
+[2026-05-16 15:28:41.494] [INFO] Generating 500 Negatively Skewed (Reflected Log-Normal) observations
+[2026-05-16 15:28:41.531] [INFO] Negatively Skewed (Reflected Log-Normal) | median=17.0122  SE=0.0578  bias=-0.0043  95%CI=[16.8994, 17.1252]  elapsed=36.386721ms  alloc=4028.0KB
+[2026-05-16 15:28:41.531] [INFO] Results saved to results/go_results.csv
+[2026-05-16 15:28:41.533] [INFO] Memory profile → results/mem.prof
+[2026-05-16 15:28:41.533] [INFO] Final memory | Alloc=2421.46 KB  TotalAlloc=14642.17 KB  Sys=12117.26 KB  NumGC=6
